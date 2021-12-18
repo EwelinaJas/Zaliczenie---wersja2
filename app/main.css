@@ -1,0 +1,142 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/hexellence.png");
+	font-size: 16px;
+	font-family: 'tahoma';
+	color: #111;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+a:link    { 
+	color: #ffffffd0; text-decoration: none; 
+	text-decoration: none;
+}
+a:visited { 
+	color: #ffffff; 
+	text-decoration: none;
+}
+a:active  { 
+	color: #b0f6ff; 
+	text-decoration: none;
+}
+a:hover   { 
+	color: #ffffff; text-decoration: underline; 
+	text-decoration: none;
+}
+
+h1
+{
+	font-family: 'tahoma';
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+p
+{
+	text-align: center;
+}
+
+.container
+{
+	background-color: white;
+	width: 300px;
+	padding: 40px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	text-align: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #42478c;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #3652b0;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #1d57b4;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: 5px;
+	width: 100%;
+}
